@@ -1,0 +1,10 @@
+{
+  "name": "cogniview-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "cd cogniview-complete/cogniview-final && [ -d node_modules ] || npm install && npm run dev",
+    "build": "cd cogniview-complete/cogniview-final && [ -d node_modules ] || npm install && npm run build",
+    "start": "cd cogniview-complete/cogniview-final && [ -d node_modules ] || npm install && npm run start",
+    "lint": "cd cogniview-complete/cogniview-final && [ -d node_modules ] || npm install && npm run lint"
+  }
+}
