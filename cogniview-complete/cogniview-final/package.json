@@ -9,7 +9,7 @@
     "lint": "node ./node_modules/typescript/bin/tsc --noEmit"
   },
   "engines": {
-    "node": ">=20 <22"
+    "node": "26.x"
   },
   "dependencies": {
     "clsx": "^2.1.1",
